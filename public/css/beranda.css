@@ -1,0 +1,301 @@
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #fff;
+}
+
+.navbar{
+
+    z-index: 3;
+}
+
+* {
+  z-index: 2;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+#hero{
+    background-color: #B7B7B7;
+    padding-top: 100px;
+}
+
+.hero-tagline p{
+    color: #fff;
+    line-height: 30px;
+}
+
+.fw-bold{
+    font-size: 30px;
+}
+
+.custom-box {
+    width: 448px;
+    height: 228px;
+    background-color: #fff;
+    color: #006894;
+    margin: 40px 0 40px -20px; 
+    position: relative;
+    border-radius: 15px; 
+  }
+
+  .custom-box p {
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .custom-box img {
+    width: 206px;
+    height: auto;
+    object-fit: cover; 
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    transform: translateX(-50%);
+  }
+
+  .custom-box button {
+    font-size: 500;
+    border: none;
+    background-color: #EFC900;
+    color: #fff;
+    border-radius: 10px;
+    margin: 175px 0 10px 290px;
+    position: relative;
+  }
+
+  #pusat-informasi{
+    background-color: #B7B7B7;
+  }
+
+  .container-custom-box1 {
+    background-color: #fff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 50px;
+    position: relative;
+  }
+
+  .card-button {
+    font-size: 500;
+    border: none;
+    background-color: transparent;
+    color: #4F77A6;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .card-text {
+    font-size: 20px;
+  }
+
+  #komisariat {
+    padding: 50px 0;
+    position: relative;
+    background-image: url('/img/bg-komisariat.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+  }
+  
+  #komisariat::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 45, 45, 0.6);
+    z-index: 1;
+  }
+  .card-komisariat {
+    width: 374px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 70px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  }
+  
+  .circle-icon {
+    width: 80px;
+    height: 90px;
+    overflow: hidden;
+  }
+  
+  .circle-icon-unib{
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+  }
+
+  .circle-icon-umb{
+    width: 72px;
+    height: 75px;
+    overflow: hidden;
+  }
+
+  .circle-icon-uin{
+    width: 80px;
+    height: 75px;
+    overflow: hidden;
+  }
+
+  .circle-icon-smk5{
+    width: 79px;
+    height: 75px;
+    overflow: hidden;
+  }
+
+  .circle-icon-smk1{
+    width: 110px;
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .circle-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .text-container {
+    flex-grow: 1;
+  }
+
+
+#leaderboard{
+  background-color: #fff;
+}
+
+.container-ld{
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container-ld h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2D99C8;
+  margin-bottom: 50px;
+}
+
+.custom-box-ld {
+  width: 100%;
+  height: 658px;
+  background-color: #EAF5FF;
+  color: #000;
+  margin-bottom: 40px; 
+  position: relative;
+  border-radius: 15px; 
+  margin-left: 30px;
+}
+
+.custom-box-lp{
+  width: 100%; 
+  height: 658px;
+  background-color: transparent;
+  color: #000000;
+  margin-bottom: 40px; 
+  position: relative;
+  border-radius: 15px; 
+}
+
+.custom-box-lp img{
+  width: 90%;
+  height: 400px;
+}
+
+.custom-box-lp p{
+  font-size: 35px;
+  color: #000;
+  font-weight: 400;
+  text-align: left;
+  margin: 10px 0 0 35px;
+}
+
+.custom-box-lp button {
+  width: 150px;
+  height: auto;
+  font-size: 500;
+  font-weight: 600;
+  border: none;
+  background-color: #EFC900;
+  color: #fff;
+  border-radius: 10px;
+  margin: 10px 0 0 440px;
+  position: relative;
+
+}
+
+#daftar-kegiatan{
+  background-color: #CACACA;
+  padding-top: 100px;
+  
+}
+
+.container-kg h3{
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2D99C8;
+  margin-bottom: 50px;
+}
+
+
+.daftar-kegiatan {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+  overflow-x: auto; /* Menambahkan fitur scroll horizontal */
+}
+
+.container-kg {
+  display: flex;
+  white-space: nowrap;
+  max-width: 1200px; /* Batasi lebar container agar bisa discroll */
+  margin: 0 auto; /* Tengahkan container jika tidak penuh lebar */
+  flex-wrap: wrap;
+}
+
+.image-card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-text {
+  padding: 15px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
